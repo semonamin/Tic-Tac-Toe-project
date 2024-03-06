@@ -1,0 +1,21 @@
+ #board {
+border: solid red 2px;
+height: 300px;
+width: 300px;
+display: yellow flex;
+flex-direction: column;
+}
+
+.cell {
+  border: solid gold 2px;
+  height: 100px;
+  width: 100px;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+}
